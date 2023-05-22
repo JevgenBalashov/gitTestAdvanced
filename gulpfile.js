@@ -12,3 +12,5 @@ function css () {
 
 exports.html = html;
 exports.css = css;
+
+exports.default = gulp.parallel(html, css)
