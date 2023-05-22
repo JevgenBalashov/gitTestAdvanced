@@ -11,3 +11,4 @@ function css () {
 }
 
 exports.html = html;
+exports.css = css;
